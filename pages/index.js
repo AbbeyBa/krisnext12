@@ -33,13 +33,20 @@ const HomePage = () => {
       </div>
       <div className="w-full md:w-1/2">
         <div className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl" data-rounded="rounded-xl" data-rounded-max="rounded-full">
-            <Image src='https://cdn.devdojo.com/images/november2020/hero-image.jpeg' alt="" width={570} height={380}/>
+            <Image src="https://cdn.devdojo.com/images/november2020/hero-image.jpeg" alt="" width={570} height={380}/>
           </div>
       </div>
     </div>
   
   <br></br>
   <br></br>
+  <div className="w-full pb-6 space-y-6 sm:max-w-md lg:max-w-lg md:space-y-4 lg:space-y-8 xl:space-y-9 sm:pr-5 lg:pr-0 md:pb-0">
+          <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-4xl lg:text-5xl xl:text-6xl">
+            <br></br>
+            <span className="block xl:inline">Our Journey</span>
+            
+          </h1>
+</div>
   <Timeline>
     <Events>
     <TextEvent date="Feb - Apr 2022" text="Launched our **DAO** / *R&D*" />
@@ -50,8 +57,13 @@ const HomePage = () => {
 />
 
 <TextEvent 
-  date="May - July" 
-  text="**Cohorts 1&2** / **Marketplace** / Blog **NFT** Campaigns" 
+  date="Aug - Oct" 
+  text="**Cohorts 3&4** / Krisullis Moments NFT's / Art Campaign NFT's / Krisullis Newsletter NFT's" 
+/>
+
+<TextEvent 
+  date="Nov - Jan 2023" 
+  text="**Hyper Curation** / **Events IRL** / **Campaigns**" 
 />
 
     </Events>
