@@ -1,5 +1,13 @@
 import React from 'react'
 import Image from 'next/image'
+import {
+  Timeline,
+  Events,
+  UrlButton,
+  ImageEvent,
+  TextEvent,
+  YouTubeEvent,
+} from '@merc/react-timeline'
   
 const HomePage = () => {
   return (
@@ -25,13 +33,29 @@ const HomePage = () => {
       </div>
       <div className="w-full md:w-1/2">
         <div className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl" data-rounded="rounded-xl" data-rounded-max="rounded-full">
-            <Image src='https://cdn.devdojo.com/images/november2020/hero-image.jpeg' width={570} height={380}/>
+            <Image src='https://cdn.devdojo.com/images/november2020/hero-image.jpeg' alt="" width={570} height={380}/>
           </div>
       </div>
     </div>
   
   <br></br>
   <br></br>
+  <Timeline>
+    <Events>
+    <TextEvent date="Feb - Apr 2022" text="Launched our **DAO** / *R&D*" />
+
+<TextEvent 
+  date="May - July" 
+  text="**Cohorts 1&2** / **Marketplace** / Blog **NFT** Campaigns" 
+/>
+
+<TextEvent 
+  date="May - July" 
+  text="**Cohorts 1&2** / **Marketplace** / Blog **NFT** Campaigns" 
+/>
+
+    </Events>
+  </Timeline>
  
 </div>
   </>
