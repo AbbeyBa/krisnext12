@@ -23,7 +23,7 @@ const HomePage = () => {
       </div>
       <div className="w-full md:w-1/2">
         <div className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl" data-rounded="rounded-xl" data-rounded-max="rounded-full">
-            <img src="https://cdn.devdojo.com/images/november2020/hero-image.jpeg" className=""></img>
+            <image src="https://cdn.devdojo.com/images/november2020/hero-image.jpeg" className=""></image>
           </div>
       </div>
     </div>
