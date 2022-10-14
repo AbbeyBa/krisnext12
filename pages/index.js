@@ -1,7 +1,9 @@
 import React from 'react'
+import Image from 'next/image'
   
 const HomePage = () => {
   return (
+    <>
     <div className="container items-center max-w-6xl px-8 mx-auto xl:px-5">
     <div className="flex flex-wrap items-center sm:-mx-3">
       <div className="w-full md:w-1/2 md:px-3">
@@ -23,11 +25,12 @@ const HomePage = () => {
       </div>
       <div className="w-full md:w-1/2">
         <div className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl" data-rounded="rounded-xl" data-rounded-max="rounded-full">
-            <image src="https://cdn.devdojo.com/images/november2020/hero-image.jpeg" className=""></image>
+            <Image src='https://cdn.devdojo.com/images/november2020/hero-image.jpeg' width={570} height={380}/>
           </div>
       </div>
     </div>
   </div>
+  </>
   )
 }
   
