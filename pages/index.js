@@ -73,15 +73,9 @@ const HomePage = () => {
     <div>
     
     
-    <div class="flex flex-wrap justify-start sm:grid sm:grid-cols-4 md:grid-cols-4 gap-6 mt-8">
+    <div class="flex flex-wrap justify-start sm:grid sm:grid-cols-4 md:grid-cols-4 gap-4 mt-8">
     <p className="text-gray-900 font-bold text-lg mt-5 flex items-center group">Our Partners</p>
-    <div className="w-auto h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl" data-rounded="rounded-xl" data-rounded-max="rounded-full">
-            <Image src="https://cdn.devdojo.com/images/november2020/hero-image.jpeg" alt="" width={20} height={20}/>
-          </div>
-      
-          <div className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl" data-rounded="rounded-xl" data-rounded-max="rounded-full">
-            <Image src="https://cdn.devdojo.com/images/november2020/hero-image.jpeg" alt="" width={20} height={20}/>
-          </div>
+    
 
       </div>
 
