@@ -2,6 +2,6 @@
 
 module.exports = {
   images: {
-    domains: ['cdn.devdojo.com'],
+    domains: ["cdn.devdojo.com","ngpzwhzdavpdovrvzium.supabase.co",],
   },
 }

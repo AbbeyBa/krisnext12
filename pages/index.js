@@ -1,4 +1,6 @@
 import React from 'react'
+import Head from '../components/Head'
+import Header from '../components/Header'
 import Image from 'next/image'
 import {
   Timeline,
@@ -8,10 +10,16 @@ import {
   TextEvent,
   YouTubeEvent,
 } from '@merc/react-timeline'
+
   
 const HomePage = () => {
   return (
     <>
+    <Head>
+      <title>Krisullis - You Belong Here</title>
+    </Head>
+    <Header />
+    <main className="flex items-center justify-center">
     <div className="container items-center max-w-6xl px-8 mx-auto xl:px-5">
     <div className="flex flex-wrap items-center sm:-mx-3">
       <div className="w-full md:w-1/2 md:px-3">
@@ -25,7 +33,7 @@ const HomePage = () => {
           <div className="relative flex flex-col sm:flex-row sm:space-x-4">
             <a href="#_" className="flex items-center w-full px-6 py-3 mb-3 text-lg text-white bg-indigo-600 rounded-md sm:mb-0 hover:bg-indigo-700 sm:w-auto" data-primary="indigo-600" data-rounded="rounded-md">Register here<svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 ml-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
             </a>
-            <a href="#_" className="flex items-center px-6 py-3 text-gray-500 bg-gray-100 rounded-md hover:bg-gray-200 hover:text-gray-600" data-rounded="rounded-md">
+            <a href="/about" className="flex items-center px-6 py-3 text-gray-500 bg-gray-100 rounded-md hover:bg-gray-200 hover:text-gray-600" data-rounded="rounded-md">
               Learn More
             </a>
           </div>
@@ -69,13 +77,14 @@ const HomePage = () => {
     </Events>
   </Timeline>
 
-    <div className="my-16 border-b border-gray-300 lg:my-20"></div>
+    <div className="my-16 border-b border-gray-300 lg:my-10"></div>
     <div>
+      
     
-    
-    <div class="flex flex-wrap justify-start sm:grid sm:grid-cols-4 md:grid-cols-4 gap-4 mt-8">
-    <p className="text-gray-900 font-bold text-lg mt-5 flex items-center group">Our Partners</p>
-    
+    <p className="text-gray-900 font-bold text-base mt-0 flex items-center group">Our Partners</p>
+    <div className="w-full h-auto overflow-hidden gap-8 columns-3">
+    <Image src="https://ngpzwhzdavpdovrvzium.supabase.co/storage/v1/object/public/krisdemoassets/Mintbase_logo_2x.png" alt="" width={100} height={40}/>
+    <Image src="https://ngpzwhzdavpdovrvzium.supabase.co/storage/v1/object/public/krisdemoassets/near_logo.png" alt="" width={100} height={40}/>
 
       </div>
 
@@ -83,6 +92,7 @@ const HomePage = () => {
      </div>   
  
 </div>
+</main>
   </>
   )
 }
