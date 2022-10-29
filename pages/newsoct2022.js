@@ -12,7 +12,7 @@ function newsoct2022() {
     <Header />
     <div className="w-full px-8 pt-5 pb-16 bg-white xl:px-0">
   <div className="flex flex-col max-w-6xl mx-auto">
-  <h2 className="text-3xl flex items-center font-bold tracking-tighter text-black sm:text-3xl relative">
+  <h2 className="text-2xl flex items-center font-bold tracking-tighter text-black sm:text-2xl relative">
             <span>An Intro</span>
         </h2>
 
