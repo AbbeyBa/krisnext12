@@ -269,7 +269,7 @@ And for the minted NFT, visit here
 
 {/**<!-- Image -->**/}
 <div className="box-border relative w-full max-w-md px-4 mt-5 mb-4 -ml-5 text-center bg-no-repeat bg-contain border-solid md:ml-0 md:mt-0 md:max-w-none lg:mb-0 md:w-1/2 xl:pl-10">
-    <img className="mt-4 rounded-lg sm:max-h-72 max-w-xs" src="https://ngpzwhzdavpdovrvzium.supabase.co/storage/v1/object/public/krisdemoassets/image4_Duro_oct_issue_2022.jpg"></img>
+    <img className="flex flex-wrap mt-4 rounded-lg sm:max-h-72 max-w-xs items-center justify-center" src="https://ngpzwhzdavpdovrvzium.supabase.co/storage/v1/object/public/krisdemoassets/image4_Duro_oct_issue_2022.jpg"></img>
 </div>
 
 {/**<!-- Content -->**/}
