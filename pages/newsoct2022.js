@@ -34,7 +34,7 @@ function newsoct2022() {
         
 
         
-                <img className="mt-4 rounded-lg sm:max-h-72 max-w-sm" src="https://ngpzwhzdavpdovrvzium.supabase.co/storage/v1/object/public/krisdemoassets/image_un_sdg_oct_issue_2022.jpg"></img>
+                <img className="mt-4 rounded-lg sm:max-h-72 max-w-xs" src="https://ngpzwhzdavpdovrvzium.supabase.co/storage/v1/object/public/krisdemoassets/image_un_sdg_oct_issue_2022.jpg"></img>
               </p>  
 
         <p className="col-span-6 font-normal text-gray-700 lg:leading-8 xl:leading-9 md:text-xl text-sm sm:text-xl tracking-tight">
@@ -57,7 +57,7 @@ In the conversation we had with her, she underscored the multidimensional and nu
         
 
         
-                <img className="mt-4 rounded-lg sm:max-h-72 max-w-sm" src="https://ngpzwhzdavpdovrvzium.supabase.co/storage/v1/object/public/krisdemoassets/image2_giselle_oct_issue_2022.jpg"></img>
+                <img className="mt-4 rounded-lg sm:max-h-72 max-w-xs" src="https://ngpzwhzdavpdovrvzium.supabase.co/storage/v1/object/public/krisdemoassets/image2_giselle_oct_issue_2022.jpg"></img>
               </p>  
 
         <p className="col-span-6 font-normal text-gray-700 lg:leading-8 xl:leading-9 md:text-xl text-sm sm:text-xl tracking-tight">
