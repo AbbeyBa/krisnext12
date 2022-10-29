@@ -263,31 +263,32 @@ And for the minted NFT, visit here
         </p>
         </div>
 </div>
+</div>
         <div className="my-16 border-b border-gray-300 lg:my-10"></div>
 
-        <div className="box-border flex flex-col items-center content-center justify-center px-8 mx-auto leading-6 text-black border-0 border-gray-300 border-solid md:flex-row max-w-7xl">
+        <div className="flex flex-col items-center justify-center px-8 mx-auto leading-6 text-black md:flex-row max-w-7xl">
 
 {/**<!-- Image -->**/}
-<div className="box-border relative w-full max-w-md px-4 mt-5 mb-4 -ml-5 text-center bg-no-repeat bg-contain border-solid md:ml-0 md:mt-0 md:max-w-none lg:mb-0 md:w-1/2 xl:pl-10">
+<div className="max-w-md px-4 mt-5 mb-4 -ml-5 text-center bg-no-repeat md:ml-0 md:mt-0 md:max-w-none lg:mb-0 md:w-1/2 xl:pl-10">
     <img className="flex flex-wrap mt-4 rounded-lg sm:max-h-72 max-w-xs items-center justify-center" src="https://ngpzwhzdavpdovrvzium.supabase.co/storage/v1/object/public/krisdemoassets/image4_Duro_oct_issue_2022.jpg"></img>
 </div>
 
 {/**<!-- Content -->**/}
-<div className="box-border order-first w-full text-black border-solid md:w-1/2 md:pl-10 md:order-none">
-    <h2 className="m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-2xl md:text-2xl sm:text-2xl">
+<div className="w-full text-black ">
+    <h2 className="m-0 text-xl font-semibold leading-tight lg:text-2xl md:text-2xl sm:text-2xl">
     Thoughts from the Editor - Duro
     </h2>
-    <p className="pt-4 pb-8 m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-sm sm:text-sm">
+    <p className="pt-4 pb-8 m-0 leading-7 text-gray-700  sm:pr-12 xl:pr-32 lg:text-sm sm:text-sm">
     Trust. Mutual trust. This I have always believed to be a foundation for any business or personal relationship. Trust is hard to build but easy to destroy. And this is where we are today as a society. A society without trust. It is easy to call out our governments, but each of us are likewise responsible.
     </p>
    
 
     
-    <p className="pt-4 pb-8 m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-10 lg:text-sm">
+    <p className="pt-4 pb-8 m-0 leading-7 text-gray-700   sm:pr-10 lg:text-sm">
     A big problem; a solution through technology - Blockchain. Providing what we lacked but desperately needed - accountability and transparency, which are the basis of trust.
     </p>
 
-    <p className="pt-4 pb-8 m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-10 lg:text-sm">
+    <p className="pt-4 pb-8 m-0 leading-7 text-gray-700 sm:pr-10 lg:text-sm">
     Thus, maybe that is why Blockchain has become important, because humanity needed a reason to trust again. Is blockchain the answer or just the start to arriving at the answer?
     </p>
   
@@ -300,7 +301,7 @@ And for the minted NFT, visit here
 <div className="my-16 border-b border-gray-300 lg:my-10"></div>
 
 
-</div>
+
       
   
 
