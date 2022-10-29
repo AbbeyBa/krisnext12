@@ -265,7 +265,7 @@ And for the minted NFT, visit here
 </div>
         <div className="my-16 border-b border-gray-300 lg:my-10"></div>
 
-        <div className="box-border flex flex-col items-center content-center px-8 mx-auto leading-6 text-black border-0 border-gray-300 border-solid md:flex-row max-w-7xl">
+        <div className="box-border flex flex-col items-center content-center justify-center px-8 mx-auto leading-6 text-black border-0 border-gray-300 border-solid md:flex-row max-w-7xl">
 
 {/**<!-- Image -->**/}
 <div className="box-border relative w-full max-w-md px-4 mt-5 mb-4 -ml-5 text-center bg-no-repeat bg-contain border-solid md:ml-0 md:mt-0 md:max-w-none lg:mb-0 md:w-1/2 xl:pl-10">
