@@ -248,7 +248,7 @@ And for the minted NFT, visit here
         <span className="text-sm text-gray-600"><span className="font-bold text-gray-900 mr-2">Reaching out</span></span>
  
         </p>
-        
+
         <p className="col-span-6 font-normal text-gray-700 lg:leading-8 xl:leading-9 md:text-xl text-sm sm:text-xl tracking-tight">
         <span className="text-sm text-gray-600"> Interested in becoming a part of the Krisullis community through our onboarding workshop or you are an entrepreneur, educationalist, or sustainability advocate, do sign up here</span>
         <a href="https://forms.gle/sDq5LSfsqixWqFbm8" className="inline-flex items-center  mx-2 pb-1 font-medium text-blue-500 border-b-2 border-gray-200 hover:border-blue-500 group">
@@ -259,39 +259,51 @@ And for the minted NFT, visit here
                 </a>
  
         </p>
-
-        <p className="col-span-6 font-normal text-gray-700 lg:leading-8 xl:leading-9 md:text-xl text-sm sm:text-xl tracking-tight">
-        <span className="text-sm text-gray-600"><span className="font-bold text-gray-900 mr-2">Derek: </span> Yeah, I do 😄</span>
- 
- 
-        </p>
-
-
-                <p className="col-span-6 font-normal text-gray-700 lg:leading-8 xl:leading-9 md:text-xl text-sm sm:text-xl tracking-tight">
-                The goal is to empower these people to embrace their diversities and individualities and use it as their strength in the web 3 and metaverse world. 
-For more on the interview, kindly visit here 
-
-<a href="https://www.youtube.com/watch?v=x-W6S6BsXx8" className="inline-flex items-center  mx-2 pb-1 font-medium text-blue-500 border-b-2 border-gray-200 hover:border-blue-500 group">
-                    <span className="">Learn More</span>
-                    <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
-                    </svg>
-                </a> 
-</p>
-
-<p className="col-span-6 font-normal text-gray-700 lg:leading-8 xl:leading-9 md:text-xl text-sm sm:text-xl tracking-tight">
-And for the minted NFT, visit here
-
-<a href="https://www.mintbase.io/contract/krisullismerch.mintbase1.near/token/42" className="inline-flex items-center  mx-2 pb-1 font-medium text-blue-500 border-b-2 border-gray-200 hover:border-blue-500 group">
-                    <span className="">Learn More</span>
-                    <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
-                    </svg>
-                </a> 
-
-        </p>
+        </div>
 </div>
+        <div className="my-16 border-b border-gray-300 lg:my-10"></div>
+
+        <div className="box-border flex flex-col items-center content-center px-8 mx-auto leading-6 text-black border-0 border-gray-300 border-solid md:flex-row max-w-7xl lg:px-16">
+
+{/**<!-- Image -->**/}
+<div className="box-border relative w-full max-w-md px-4 mt-5 mb-4 -ml-5 text-center bg-no-repeat bg-contain border-solid md:ml-0 md:mt-0 md:max-w-none lg:mb-0 md:w-1/2 xl:pl-10">
+    <img src="https://ngpzwhzdavpdovrvzium.supabase.co/storage/v1/object/public/krisdemoassets/image4_Duro_oct_issue_2022.jpg" className="p-2 pl-6 pr-5 xl:pl-16 xl:pr-20 "></img>
 </div>
+
+{/**<!-- Content -->**/}
+<div className="box-border order-first w-full text-black border-solid md:w-1/2 md:pl-10 md:order-none">
+    <h2 className="m-0 text-xl font-semibold leading-tight border-0 border-gray-300 lg:text-3xl md:text-2xl">
+    Thoughts from the Editor - Duro
+    </h2>
+    <p className="pt-4 pb-8 m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-12 xl:pr-32 lg:text-sm">
+    Trust. Mutual trust. This I have always believed to be a foundation for any business or personal relationship. Trust is hard to build but easy to destroy. And this is where we are today as a society. A society without trust. It is easy to call out our governments, but each of us are likewise responsible.
+    </p>
+   
+</div>
+
+</div>
+<div className="box-border flex flex-col items-center content-center px-8 mx-auto mt-2 leading-6 text-black border-0 border-gray-300 border-solid md:mt-20 xl:mt-0 md:flex-row max-w-7xl lg:px-16">
+
+
+<div className="box-border w-full text-black border-solid md:w-1/2 md:pl-6 xl:pl-32">
+    
+    <p className="pt-4 pb-8 m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-10 lg:text-sm">
+    A big problem; a solution through technology - Blockchain. Providing what we lacked but desperately needed - accountability and transparency, which are the basis of trust.
+    </p>
+
+    <p className="pt-4 pb-8 m-0 leading-7 text-gray-700 border-0 border-gray-300 sm:pr-10 lg:text-sm">
+    Thus, maybe that is why Blockchain has become important, because humanity needed a reason to trust again. Is blockchain the answer or just the start to arriving at the answer?
+    </p>
+  
+</div>
+
+
+</div>
+
+                
+<div className="my-16 border-b border-gray-300 lg:my-10"></div>
+
+
 </div>
       
   
