@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from '../components/Head'
 import Header from '../components/Header'
-import Image from 'next/image'
+
 import {
   Timeline,
   Events,
@@ -41,7 +41,7 @@ const HomePage = () => {
       </div>
       <div className="w-full md:w-1/2">
         <div className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl" data-rounded="rounded-xl" data-rounded-max="rounded-full">
-            <Image src="https://cdn.devdojo.com/images/november2020/hero-image.jpeg" alt="" width={570} height={380}/>
+            <img src="https://ngpzwhzdavpdovrvzium.supabase.co/storage/v1/object/public/krisdemoassets/butterfly_luxury.jpg"></img>
           </div>
       </div>
     </div>
@@ -82,12 +82,17 @@ const HomePage = () => {
       
     
     <p className="text-gray-900 font-bold text-base mt-0 flex items-center group">Our Partners</p>
-    <div className="w-full h-auto overflow-hidden gap-8 columns-3">
-    <Image src="https://ngpzwhzdavpdovrvzium.supabase.co/storage/v1/object/public/krisdemoassets/Mintbase_logo_2x.png" alt="" width={100} height={40}/>
-    <Image src="https://ngpzwhzdavpdovrvzium.supabase.co/storage/v1/object/public/krisdemoassets/near_logo.png" alt="" width={100} height={40}/>
+    <div className="grid grid-cols-12 pb-3 sm:px-5 gap-x-1">
+    <div className="flex flex-col items-start col-span-12 space-y-3 sm:col-span-6 xl:col-span-4">
+
+    <img className="object-cover mb-2 overflow-hidden rounded-lg max-h-8" src="https://ngpzwhzdavpdovrvzium.supabase.co/storage/v1/object/public/krisdemoassets/Mintbase_logo_2x.png"></img>
+    </div>
+
+    <div className="flex flex-col items-start col-span-12 space-y-3 sm:col-span-6 xl:col-span-4">
+    <img className="object-cover mb-2 overflow-hidden rounded-lg max-h-8" src="https://ngpzwhzdavpdovrvzium.supabase.co/storage/v1/object/public/krisdemoassets/near_logo.png"></img>
 
       </div>
-
+</div>
            
      </div>   
  
